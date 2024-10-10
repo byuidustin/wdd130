@@ -1,0 +1,59 @@
+img {
+    width: 50%;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%; 
+}
+p {
+    width: 80%; 
+    color:white;  
+}
+a {
+    font-size: 1.5em;
+    
+}
+h1 {
+    text-align: center;
+    color:white;
+}
+h1:hover {
+    color: black;
+}
+body{background-color: rgb(6, 156, 206);}
+
+ footer {
+    text-align: center;
+}
+main p {
+    width: 100%;
+    margin: 0 auto;
+    color:white ;
+    font:500em;
+    text-align: center;
+    font-size: 2.5em;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+main ol{
+    text-align: center;
+    font-size: 1.3em;
+    list-style-position: inside;
+    list-style: ;
+}
+ footer {
+    color: black;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+    color:black
+}
+
+
+
