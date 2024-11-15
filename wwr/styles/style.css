@@ -247,6 +247,49 @@ main section img {
 
 }
 
+/*this is the next page river*/
+
+.page2 h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: aqua;
+}
+
+.canyon {
+    text-align: left;
+    color: #ffffff;
+    background-color: #4c4c9d;
+    width: 100%;
+}
+
+.p2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(172, 1, 149);
+}
+
+.rafting {
+    text-align: center;
+    background-color: aqua;
+    color: black;
+
+}
+
+.arizona {
+    text-align: center;
+    background-color: rgb(172, 1, 149);
+    color: rgb(255, 255, 255);
+}
+
+.page2 h4 {
+    color: rgb(255, 255, 255);
+}
+
+.photo {
+    border: solid black;
+    border-width: 10px;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
