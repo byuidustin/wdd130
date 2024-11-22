@@ -13,12 +13,19 @@ footer {
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
 
+footer p#copy {
+    text-align: center;
+    background-color: #4ab4ff;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
 }
 
 footer a {
     justify-content: space-around;
-    font-size: 20px;
     color: black;
 }
 
@@ -73,104 +80,45 @@ p {
 
 /*this is the next page Cinderwing*/
 
-.butterfly img {
-    border: 10px solid black;
-
-}
-
-.wolf img {
-    border: 10px solid black;
-
-}
-
-.crab img {
-    border: 10px solid black;
-
-}
-
-.smalltower img {
-    border: 10px solid black;
-
-}
-
-.tower img {
-    border: 10px solid black;
-
-}
-
-.tails img {
-    border: 10px solid black;
-
-}
-
-.long img {
-    border: 10px solid black;
-
-}
-
-.unicorn img {
-    border: 10px solid black;
-
-}
-
-.manta img {
-    border: 10px solid black;
-
-}
-
 .page2 p {
     background-color: aqua;
+}
 
+.dragon img {
+    border: 10px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dragon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.dragon div {
+    width: 100%;
 }
 
 /*this is the next page Heroic Studio*/
 
-.helmet img {
-    border: 10px solid black;
-
-}
-
-.jolt img {
-    border: 10px solid black;
-
-}
-
-.pot img {
-    border: 10px solid black;
-
-}
-
-.wind img {
-    border: 10px solid black;
-
-}
-
-.zed img {
-    border: 10px solid black;
-
-}
-
-.flare img {
-    border: 10px solid black;
-
-}
-
-.mega img {
-    border: 10px solid black;
-
-}
-
-.lamp img {
-    border: 10px solid black;
-
-}
-
-.evilgreen img {
-    border: 10px solid black;
-
-}
-
 .page3 p {
     background-color: aqua;
 
+}
+
+.writing img {
+    border: 10px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.writing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.writing div {
+    width: 100%;
 }
