@@ -2,7 +2,6 @@ header {
     text-align: center;
     background-color: #4ab4ff;
     display: grid;
-    grid-template-columns: 150px 2/5;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
@@ -99,9 +98,7 @@ p {
 
 /*this is the next page Cinderwing*/
 
-.page2 p {
-    background-color: 196, 252, 206;
-}
+
 
 .dragon img {
     border: 10px solid black;
@@ -127,9 +124,6 @@ p {
 
 /*this is the next page Heroic Studio*/
 
-.page3 p {
-    background-color: 196, 252, 206;
-}
 
 .tag {
     width: 20%;
