@@ -10,7 +10,6 @@ header {
 footer {
     text-align: center;
     background-color: #4ab4ff;
-    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     border-top: 10px solid white;
@@ -26,8 +25,15 @@ footer p#copy {
 }
 
 footer a {
-    justify-content: space-around;
     color: black;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: red;
 }
 
 body {
@@ -53,7 +59,12 @@ nav {
 
 nav a {
     color: black;
-    margin: auto
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
 }
 
 nav p {
