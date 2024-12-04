@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky 3D Prints</title>
+    <title>Contact Us</title>
     <link type="text/css" rel="stylesheet" href="Styles/styles.css">
 </head>
 
@@ -24,26 +24,25 @@
 
         </header>
         <main>
-            <div id="personal">
-                <p>
-                    Welcome to the Sky3Dprints Home page. This websites goal is to provide links to
-                    websites that will allow you to order models created by 3d modelers like Cinderwing and Heroic
-                    Studios.
-                    All which will be shown on these pages. This website serves as a way for people to buy custom 3d
-                    printed
-                    models that are articulated as well as cosplay props from me or to provide links to the creators of
-                    these products so that if you have a 3D printer you to can make some of these awesome products for
-                    yourself.
-                </p>
-                <img src="Images/personalphoto.jpg" alt="personalphoto">
-                <p>
-                    Hi, my name is Dustin Webster I am currently 28 living with my wife and 4 kids. My interests are 3d
-                    printing and 3D model building I hope to open a small shop that specializes in making and painting
-                    models for cosplayers and tabletop board game enthusiast. I currently am working on my painting
-                    skills
-                    in order to paint large scale miniture sets like those in Warhammer 40K.
-                </p>
-                <img src="Images/rsz_5orginizationname.jpg" alt="large">
+            <div class="container">
+                <form action="send_email.php" method="post">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                    <label for="E-mail">E-mail</label>
+                    <input type="text" id="lname" name="E-mail" placeholder="Your E-mail.." required>
+
+                    <label for="message">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Send">
+                </form>
+
             </div>
         </main>
         <footer>
@@ -56,7 +55,6 @@
             <a href="site-plan.html">Site-plan </a>
             &nbsp;
             <a href="contact-us.html">Contact Us </a>
-
             <p id="copy">Sky 3D Prints &copy; 2024 - Dustin Webster</p>
             <div class="social">
                 <a href="https://www.facebook.com/profile.php?id=100095674680028" target="_blank">
