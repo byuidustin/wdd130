@@ -31,6 +31,10 @@ footer a {
     text-decoration: none;
 }
 
+.social img {
+    width: 150px;
+}
+
 footer a:hover {
     color: red;
 }
@@ -284,5 +288,18 @@ p {
 
     .tag {
         width: 30%;
+    }
+
+    .dragon img {
+        border: 5px solid black;
+    }
+
+    .writing img {
+        border: 5px solid black;
+
+    }
+
+    .social img {
+        width: 60px;
     }
 }
