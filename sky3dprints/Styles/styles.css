@@ -211,7 +211,7 @@ p {
 .dragon {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     border: 10px solid white;
 }
 
@@ -240,7 +240,7 @@ p {
 .writing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     border: 10px solid white;
 }
 
@@ -248,3 +248,5 @@ p {
     width: 100%;
     background-color: rgb(196, 252, 206);
 }
+
+@media screen and (max-width: 900px) {}
