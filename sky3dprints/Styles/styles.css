@@ -249,4 +249,25 @@ p {
     background-color: rgb(196, 252, 206);
 }
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+    nav {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #personal img {
+        width: 40%;
+    }
+
+    footer {
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    footer p#copy {
+        font-size: 10px;
+    }
+}
