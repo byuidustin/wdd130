@@ -252,6 +252,10 @@ p {
     background-color: rgb(196, 252, 206);
 }
 
+/*this is the next page catalogue*/
+
+
+
 @media screen and (max-width: 900px) {
     nav {
         font-size: 10px;
